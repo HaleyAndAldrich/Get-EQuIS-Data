@@ -2,7 +2,7 @@
 use equis
 go
 
-set ansi_warnings off
+--set ansi_warnings off
 exec  [rpt].[sp_Get_EQuIS_Results_w_ALs_test]
 	
 		 47, --@facility_id int,
@@ -19,8 +19,8 @@ exec  [rpt].[sp_Get_EQuIS_Results_w_ALs_test]
 		 null, --'ug/m3',  --@target_unit varchar(100),
 		 'rl', -- @limit_type varchar (10) = 'RL',
 		 null, --@action_level_codes varchar (500),
-		 'PM10_Max_1h_Avg|PM10_Overall_Avg|TVOC_15_Min_Avg|TVOC_Overall_Avg', -- @loc_param_codes varchar(2000) ,
-		null, --'Elevation Range|Mudline Elevation', --@include_loc_params varchar(10) = 'N',
+		 null, --'PM10_Max_1h_Avg|PM10_Overall_Avg|TVOC_15_Min_Avg|TVOC_Overall_Avg', -- @loc_param_codes varchar(2000) ,
+		 'Elevation Range|Mudline Elevation', --@include_loc_params varchar(10) = 'N',
 		 '< # Q', --@user_qual_def varchar (10),
 		 'y', --@show_val_yn varchar(10) ,
 		 null, --@coord_type varchar (20),
