@@ -6,8 +6,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
---test comment
---more comments...
+
 
 	ALTER procedure  [rpt].[sp_Get_EQuIS_Results_w_ALs_test]
 	(
