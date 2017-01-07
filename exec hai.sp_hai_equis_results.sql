@@ -11,7 +11,7 @@ exec hai.sp_hai_equis_results
 		 null, --loc groups
 		 null, -- locs
 		 null, --'320205661|320217101|320202681', --sdg
-		 null ,--'pge air pahs', --@analyte_groups varchar(2000),
+		 'pge air pahs', --@analyte_groups varchar(2000),
 		 null, --'79-01-6', --@cas_rns varchar (2000),
 		 null, --'ug/m3',  --@target_unit varchar(100),
 		 'rl', -- @limit_type varchar (10) = 'RL',

@@ -3,7 +3,7 @@ use equis
 go
 
 --set ansi_warnings off
-exec  [rpt].[sp_Get_EQuIS_Results_w_ALs_test]
+exec  [hai].[sp_Get_EQuIS_Results_w_ALs_test]
 	
 		 47, --@facility_id int,
 		 null, --@location_groups varchar (2000),
