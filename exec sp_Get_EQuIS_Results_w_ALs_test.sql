@@ -2,7 +2,7 @@
 use equis
 go
 
---set ansi_warnings off
+set ansi_warnings off
 exec  [hai].[sp_Get_EQuIS_Results_w_ALs_test]
 	
 		 47, --@facility_id int,
@@ -25,4 +25,6 @@ exec  [hai].[sp_Get_EQuIS_Results_w_ALs_test]
 		 'y', --@show_val_yn varchar(10) ,
 		 null, --@coord_type varchar (20),
 		 'n' -- @detects_only varchar (10) = 'N'  /*returns all samples/chemicals if any one sample had that chemcial detected*/
+	
+
 	
