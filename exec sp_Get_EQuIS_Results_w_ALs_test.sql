@@ -9,7 +9,7 @@ exec  [hai].[sp_Get_EQuIS_Results_w_ALs_test]
 		 null, --@location_groups varchar (2000),
 		 'EH-HA16-GT-22' , --@locations varchar (2000),
 		 'n', --@sample_type varchar(200),
-		 null, --'PGE-P39-EB', --'0459007-PAMS|0459007-PAMS-Back',--'ROW_GW_2016_1Q|ROW_GW_2016_2q|ROW_GW_2016_3Q', --@task_codes varchar (1000),
+		 'EH_SE_2016Oct', --'PGE-P39-EB', --'0459007-PAMS|0459007-PAMS-Back',--'ROW_GW_2016_1Q|ROW_GW_2016_2q|ROW_GW_2016_3Q', --@task_codes varchar (1000),
 		 null, --@SDG varchar (2000),
 		 '1/1/2000', --@start_date datetime, --= 'jan 01 1900 12:00 AM',
 		'1/1/2050', --datetime,  -- ='dec 31 2050 11:59 PM',
