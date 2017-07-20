@@ -6,19 +6,21 @@ set ansi_warnings off
 exec  [hai].[sp_Get_EQuIS_Results_w_ALs_test]
 	
 		 47, --@facility_id int,
+		 'pge-ff',
 		 null, --@location_groups varchar (2000),
 		 null, --@locations varchar (2000),
 		 null, --@sample_type varchar(200),
-		 'potrero-aa', --'0459007-PAMS|0459007-PAMS-Back',--'ROW_GW_2016_1Q|ROW_GW_2016_2q|ROW_GW_2016_3Q', --@task_codes varchar (1000),
+		 null, --'0459007-PAMS|0459007-PAMS-Back',--'ROW_GW_2016_1Q|ROW_GW_2016_2q|ROW_GW_2016_3Q', --@task_codes varchar (1000),
 		 null, --@SDG varchar (2000),
 		 '1/1/1900', --@start_date datetime, --= 'jan 01 1900 12:00 AM',
 		'1/1/2050', --datetime,  -- ='dec 31 2050 11:59 PM',
 		 'pge air PAHs', --@analyte_groups varchar(2000),
 		 null, --@cas_rns varchar (2000),
+		 'sw6010b|sw8270sim',  --@analytic_methods
 		 null,-- --@matrix_codes varchar (500),
 		 null, --'ug/m3',  --@target_unit varchar(100),
 		 'rl', -- @limit_type varchar (10) = 'RL',
-		 'pge-sl-potrero-aa', --@action_level_codes varchar (500),
+		 null, --@action_level_codes varchar (500),
 		 null, --'PM10_Max_1h_Avg|PM10_Overall_Avg|TVOC_15_Min_Avg|TVOC_Overall_Avg', -- @loc_param_codes varchar(2000) ,
 		 null, --'Elevation Range|Mudline Elevation', --@sample parameters,
 		 '< # Q', --@user_qual_def varchar (10),
